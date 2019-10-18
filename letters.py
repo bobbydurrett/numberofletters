@@ -77,11 +77,23 @@ def build_sentence(p, max_words):
         
         word_number += 1
         
-    return sentence, sentence_list, num_words, word_number
+    return sentence, sentence_list, num_words
     
 p = inflect.engine()
 
-sentence, sentence_list, num_words, word_number = build_sentence(p, 201)
+sentence, sentence_list, num_words = build_sentence(p, 201)
 
-print(sentence)
+print("The lengths of the first 201 words are:")
+print(" ")
+
+print('{0:3d}:  '.format(1),end='')
+for word_index in range(201):
+    print('{0:2d}'.format(count_letters(sentence_list[word_index])),end='')
+    if (word_index+1) % 20 == 0:
+        # newline every 20
+        print(" ")
+        print('{0:3d}:  '.format(word_index + 2),end='')
+    else:
+        print(" ",end='')
+        
 
