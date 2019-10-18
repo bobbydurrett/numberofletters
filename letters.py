@@ -7,15 +7,34 @@ import inflect
 
 def count_letters(word):
     """
-    count letters ignore , or -
+    count letters ignore , or -, or space
     """
     count = 0
     for letter in word:
-        if letter != ',' and letter !='-':
+        if letter != ',' and letter !='-' and letter !=' ':
             count += 1
             
     return count
-
+    
+def split_with_spaces(sentence):
+    """
+    Takes string with partial sentence and returns
+    list of words with spaces included.
+    """
+    sentence_list = []
+    curr_word = ""
+    for c in sentence:
+        if c == " ":
+            sentence_list.append(curr_word + " ")
+            curr_word = ""
+        else:
+            curr_word += c
+            
+    if len(curr_word) > 0:
+        sentence_list.append(curr_word)
+    
+    return sentence_list
+        
 def build_sentence(p, max_words):
     """
     
@@ -26,14 +45,10 @@ def build_sentence(p, max_words):
     
     """
     
-    # start with first part of sentence up first comma
+    # start with first part of sentence up first comma as a list
     
-    sentence = "Four is the number of letters in the first word of this sentence"
-    
-    # save as list also for easy counting
-    
-    sentence_list = sentence.split()
-    
+    sentence_list = split_with_spaces("Four is the number of letters in the first word of this sentence,")
+      
     num_words = 13
     
     # which word number we are doing next
@@ -57,18 +72,12 @@ def build_sentence(p, max_words):
         
         # sentence addition
         
-        new_string = ", "+word_number_string+" in the "+ordinal_string
-        
-        new_list = new_string[1:].split()
-        
-        # update main sentence
-        
-        sentence += new_string
-        
-        # update sentence list
+        new_string = " "+word_number_string+" in the "+ordinal_string+","
+
+        new_list = split_with_spaces(new_string)
         
         sentence_list += new_list
-        
+
         # add new word count
         
         num_words += len(new_list)
@@ -77,11 +86,11 @@ def build_sentence(p, max_words):
         
         word_number += 1
         
-    return sentence, sentence_list, num_words
+    return sentence_list, num_words
     
 p = inflect.engine()
 
-sentence, sentence_list, num_words = build_sentence(p, 201)
+sentence_list, num_words = build_sentence(p, 201)
 
 print(" ")
 print("The lengths of the first 201 words are:")
@@ -95,7 +104,7 @@ for word_index in range(201):
 
     word_length = count_letters(sentence_list[word_index])
     
-    total_characters += word_length
+    total_characters += len(sentence_list[word_index])
     
     print('{0:2d}'.format(word_length),end='')
     if (word_index+1) % 20 == 0:
