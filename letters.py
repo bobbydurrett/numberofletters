@@ -59,7 +59,7 @@ def build_sentence(p, max_words):
         
         new_string = ", "+word_number_string+" in the "+ordinal_string
         
-        new_list = new_string.split()
+        new_list = new_string[1:].split()
         
         # update main sentence
         
@@ -96,4 +96,8 @@ for word_index in range(201):
     else:
         print(" ",end='')
         
+
+#for word_index in range(201):
+#    print(sentence_list[word_index])
+   
 
