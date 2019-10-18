@@ -83,21 +83,33 @@ p = inflect.engine()
 
 sentence, sentence_list, num_words = build_sentence(p, 201)
 
+print(" ")
 print("The lengths of the first 201 words are:")
 print(" ")
 
 print('{0:3d}:  '.format(1),end='')
+
+total_characters = 0
+
 for word_index in range(201):
-    print('{0:2d}'.format(count_letters(sentence_list[word_index])),end='')
+
+    word_length = count_letters(sentence_list[word_index])
+    
+    total_characters += word_length
+    
+    print('{0:2d}'.format(word_length),end='')
     if (word_index+1) % 20 == 0:
         # newline every 20
         print(" ")
         print('{0:3d}:  '.format(word_index + 2),end='')
     else:
         print(" ",end='')
-        
+ 
+print(" ")
+print(" ")
+print("Length of sentence so far: "+str(total_characters))
 
-#for word_index in range(201):
-#    print(sentence_list[word_index])
+
+
    
 
