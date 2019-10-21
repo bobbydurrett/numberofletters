@@ -95,6 +95,29 @@ def build_sentence(p, max_words):
         
     return sentence_list, num_words
     
+def word_and_counts(word_num):
+    """
+    
+    Print's lines like this:
+    
+    Word     1000 is "in", with 2 letters.  Length of sentence so far: 6279
+
+    """
+        
+    sentence_list, num_words = build_sentence(p, word_num)
+    
+    word_str = sentence_list[word_num - 1].strip(' ,')
+    
+    num_letters = len(word_str)
+    
+    num_characters = 0
+    
+    for word in sentence_list:
+       num_characters += len(word)
+       
+    print('Word {0:8d} is "{1}", with {2} letters.  Length of the sentence so far: {3}  '.format(word_num,word_str,num_letters,num_characters))
+   
+    
 p = inflect.engine()
 
 sentence_list, num_words = build_sentence(p, 201)
@@ -125,5 +148,23 @@ print(" ")
 print(" ")
 print("Length of sentence so far: "+str(total_characters))
 print(" ")
+
+"""
+
+Expected output this part:
+
+Word     1000 is "in", with 2 letters.  Length of sentence so far: 6279
+Word    10000 is "in", with 2 letters.  Length of sentence so far: 64140
+Word   100000 is "one", with 3 letters.  Length of sentence so far: 659474
+Word  1000000 is "the", with 3 letters.  Length of sentence so far: 7113621
+Word 10000000 is "thousand", with 8 letters.  Length of sentence so far: 70995756
+
+"""
+
+word_and_counts(1000)
+word_and_counts(10000)
+word_and_counts(100000)
+word_and_counts(1000000)
+word_and_counts(10000000)
 
 

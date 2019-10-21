@@ -26,3 +26,11 @@ The lengths of the first 201 words are:
 
 Length of sentence so far: 1203
 
+Word     1000 is "in", with 2 letters.  Length of the sentence so far: 6082
+Word    10000 is "in", with 2 letters.  Length of the sentence so far: 61396
+Word   100000 is "the", with 3 letters.  Length of the sentence so far: 636884
+Word  1000000 is "five", with 4 letters.  Length of the sentence so far: 6880573
+Word 10000000 is "three", with 5 letters.  Length of the sentence so far: 66783764
+
+Second part is not right. Last one takes a few minutes to run.
+
