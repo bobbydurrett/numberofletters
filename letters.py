@@ -20,16 +20,23 @@ def split_with_spaces(sentence):
     """
     Takes string with partial sentence and returns
     list of words with spaces included.
+    
+    Leading space is attached to first word.
+    Later spaces attached to prior word.
     """
     sentence_list = []
     curr_word = ""
     for c in sentence:
-        if c == " ":
-            sentence_list.append(curr_word + " ")
+        if c == " " and curr_word != "":
+            # append space to end of non-empty words
+            # assumed no more than 1 consecutive space.
+            sentence_list.append(curr_word+" ")
             curr_word = ""
         else:
             curr_word += c
-            
+    
+    # add trailing word that does not end with a space        
+    
     if len(curr_word) > 0:
         sentence_list.append(curr_word)
     
@@ -68,7 +75,7 @@ def build_sentence(p, max_words):
         
         # get two or whatever the length is of the word_number word
         
-        word_number_string = p.number_to_words(len(sentence_list[word_number - 1]))
+        word_number_string = p.number_to_words(count_letters(sentence_list[word_number - 1]))
         
         # sentence addition
         
@@ -117,8 +124,6 @@ for word_index in range(201):
 print(" ")
 print(" ")
 print("Length of sentence so far: "+str(total_characters))
+print(" ")
 
-
-
-   
 
