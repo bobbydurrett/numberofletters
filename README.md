@@ -34,3 +34,5 @@ Word 10000000 is "three", with 5 letters.  Length of the sentence so far: 667837
 
 Second part is not right. Last one takes a few minutes to run.
 
+Added debugging for 1000 word case. See output.txt.
+

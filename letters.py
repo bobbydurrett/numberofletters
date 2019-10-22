@@ -161,10 +161,22 @@ Word 10000000 is "thousand", with 8 letters.  Length of sentence so far: 7099575
 
 """
 
-word_and_counts(1000)
-word_and_counts(10000)
-word_and_counts(100000)
-word_and_counts(1000000)
-word_and_counts(10000000)
+#word_and_counts(1000)
+#word_and_counts(10000)
+#word_and_counts(100000)
+#word_and_counts(1000000)
+#word_and_counts(10000000)
 
 
+sentence_list, num_words = build_sentence(p, 1000)
+
+num_characters = 0
+
+print(" ")
+
+for i in range(1000):
+    curr_word = sentence_list[i]
+    num_characters += len(curr_word)
+    print(str(i+1)+":"+curr_word+":"+str(num_characters))
+    
+print(" ")

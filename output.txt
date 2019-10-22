@@ -1,0 +1,1019 @@
+ 
+The lengths of the first 201 words are:
+ 
+  1:   4  2  3  6  2  7  2  3  5  4  2  4  8  3  2  3  6  5  2  3 
+ 21:   5  3  2  3  6  3  2  3  5  5  2  3  5  3  2  3  7  5  2  3 
+ 41:   6  4  2  3  5  4  2  3  5  3  2  3  8  4  2  3  7  5  2  3 
+ 61:  10  5  2  3 10  3  2  3  9  5  2  3  9  3  2  3 11  4  2  3 
+ 81:  10  3  2  3 10  5  2  3  9  4  2  3 11  5  2  3 12  3  2  3 
+101:  11  5  2  3 12  3  2  3 11  5  2  3 11  3  2  3 13  5  2  3 
+121:  12  4  2  3 11  4  2  3  9  3  2  3 11  5  2  3 12  4  2  3 
+141:  11  5  2  3 12  3  2  3 11  5  2  3 11  5  2  3 13  4  2  3 
+161:  12  3  2  3 11  5  2  3  8  3  2  3 10  4  2  3 11  3  2  3 
+181:  10  5  2  3 11  4  2  3 10  4  2  3 10  3  2  3 12  5  2  3 
+201:  11  
+ 
+Length of sentence so far: 1203
+ 
+ 
+1:Four :5
+2:is :8
+3:the :12
+4:number :19
+5:of :22
+6:letters :30
+7:in :33
+8:the :37
+9:first :43
+10:word :48
+11:of :51
+12:this :56
+13:sentence,:65
+14: two :70
+15:in :73
+16:the :77
+17:second,:84
+18: three :91
+19:in :94
+20:the :98
+21:third,:104
+22: six :109
+23:in :112
+24:the :116
+25:fourth,:123
+26: two :128
+27:in :131
+28:the :135
+29:fifth,:141
+30: seven :148
+31:in :151
+32:the :155
+33:sixth,:161
+34: two :166
+35:in :169
+36:the :173
+37:seventh,:181
+38: three :188
+39:in :191
+40:the :195
+41:eighth,:202
+42: five :208
+43:in :211
+44:the :215
+45:ninth,:221
+46: four :227
+47:in :230
+48:the :234
+49:tenth,:240
+50: two :245
+51:in :248
+52:the :252
+53:eleventh,:261
+54: four :267
+55:in :270
+56:the :274
+57:twelfth,:282
+58: eight :289
+59:in :292
+60:the :296
+61:thirteenth,:307
+62: three :314
+63:in :317
+64:the :321
+65:fourteenth,:332
+66: two :337
+67:in :340
+68:the :344
+69:fifteenth,:354
+70: three :361
+71:in :364
+72:the :368
+73:sixteenth,:378
+74: six :383
+75:in :386
+76:the :390
+77:seventeenth,:402
+78: five :408
+79:in :411
+80:the :415
+81:eighteenth,:426
+82: two :431
+83:in :434
+84:the :438
+85:nineteenth,:449
+86: three :456
+87:in :459
+88:the :463
+89:twentieth,:473
+90: five :479
+91:in :482
+92:the :486
+93:twenty-first,:499
+94: three :506
+95:in :509
+96:the :513
+97:twenty-second,:527
+98: two :532
+99:in :535
+100:the :539
+101:twenty-third,:552
+102: three :559
+103:in :562
+104:the :566
+105:twenty-fourth,:580
+106: six :585
+107:in :588
+108:the :592
+109:twenty-fifth,:605
+110: three :612
+111:in :615
+112:the :619
+113:twenty-sixth,:632
+114: two :637
+115:in :640
+116:the :644
+117:twenty-seventh,:659
+118: three :666
+119:in :669
+120:the :673
+121:twenty-eighth,:687
+122: five :693
+123:in :696
+124:the :700
+125:twenty-ninth,:713
+126: five :719
+127:in :722
+128:the :726
+129:thirtieth,:736
+130: two :741
+131:in :744
+132:the :748
+133:thirty-first,:761
+134: three :768
+135:in :771
+136:the :775
+137:thirty-second,:789
+138: five :795
+139:in :798
+140:the :802
+141:thirty-third,:815
+142: three :822
+143:in :825
+144:the :829
+145:thirty-fourth,:843
+146: two :848
+147:in :851
+148:the :855
+149:thirty-fifth,:868
+150: three :875
+151:in :878
+152:the :882
+153:thirty-sixth,:895
+154: seven :902
+155:in :905
+156:the :909
+157:thirty-seventh,:924
+158: five :930
+159:in :933
+160:the :937
+161:thirty-eighth,:951
+162: two :956
+163:in :959
+164:the :963
+165:thirty-ninth,:976
+166: three :983
+167:in :986
+168:the :990
+169:fortieth,:999
+170: six :1004
+171:in :1007
+172:the :1011
+173:forty-first,:1023
+174: four :1029
+175:in :1032
+176:the :1036
+177:forty-second,:1049
+178: two :1054
+179:in :1057
+180:the :1061
+181:forty-third,:1073
+182: three :1080
+183:in :1083
+184:the :1087
+185:forty-fourth,:1100
+186: five :1106
+187:in :1109
+188:the :1113
+189:forty-fifth,:1125
+190: four :1131
+191:in :1134
+192:the :1138
+193:forty-sixth,:1150
+194: two :1155
+195:in :1158
+196:the :1162
+197:forty-seventh,:1176
+198: three :1183
+199:in :1186
+200:the :1190
+201:forty-eighth,:1203
+202: five :1209
+203:in :1212
+204:the :1216
+205:forty-ninth,:1228
+206: three :1235
+207:in :1238
+208:the :1242
+209:fiftieth,:1251
+210: two :1256
+211:in :1259
+212:the :1263
+213:fifty-first,:1275
+214: three :1282
+215:in :1285
+216:the :1289
+217:fifty-second,:1302
+218: eight :1309
+219:in :1312
+220:the :1316
+221:fifty-third,:1328
+222: four :1334
+223:in :1337
+224:the :1341
+225:fifty-fourth,:1354
+226: two :1359
+227:in :1362
+228:the :1366
+229:fifty-fifth,:1378
+230: three :1385
+231:in :1388
+232:the :1392
+233:fifty-sixth,:1404
+234: seven :1411
+235:in :1414
+236:the :1418
+237:fifty-seventh,:1432
+238: five :1438
+239:in :1441
+240:the :1445
+241:fifty-eighth,:1458
+242: two :1463
+243:in :1466
+244:the :1470
+245:fifty-ninth,:1482
+246: three :1489
+247:in :1492
+248:the :1496
+249:sixtieth,:1505
+250: ten :1510
+251:in :1513
+252:the :1517
+253:sixty-first,:1529
+254: five :1535
+255:in :1538
+256:the :1542
+257:sixty-second,:1555
+258: two :1560
+259:in :1563
+260:the :1567
+261:sixty-third,:1579
+262: three :1586
+263:in :1589
+264:the :1593
+265:sixty-fourth,:1606
+266: ten :1611
+267:in :1614
+268:the :1618
+269:sixty-fifth,:1630
+270: three :1637
+271:in :1640
+272:the :1644
+273:sixty-sixth,:1656
+274: two :1661
+275:in :1664
+276:the :1668
+277:sixty-seventh,:1682
+278: three :1689
+279:in :1692
+280:the :1696
+281:sixty-eighth,:1709
+282: nine :1715
+283:in :1718
+284:the :1722
+285:sixty-ninth,:1734
+286: five :1740
+287:in :1743
+288:the :1747
+289:seventieth,:1758
+290: two :1763
+291:in :1766
+292:the :1770
+293:seventy-first,:1784
+294: three :1791
+295:in :1794
+296:the :1798
+297:seventy-second,:1813
+298: nine :1819
+299:in :1822
+300:the :1826
+301:seventy-third,:1840
+302: three :1847
+303:in :1850
+304:the :1854
+305:seventy-fourth,:1869
+306: two :1874
+307:in :1877
+308:the :1881
+309:seventy-fifth,:1895
+310: three :1902
+311:in :1905
+312:the :1909
+313:seventy-sixth,:1923
+314: eleven :1931
+315:in :1934
+316:the :1938
+317:seventy-seventh,:1954
+318: four :1960
+319:in :1963
+320:the :1967
+321:seventy-eighth,:1982
+322: two :1987
+323:in :1990
+324:the :1994
+325:seventy-ninth,:2008
+326: three :2015
+327:in :2018
+328:the :2022
+329:eightieth,:2032
+330: ten :2037
+331:in :2040
+332:the :2044
+333:eighty-first,:2057
+334: three :2064
+335:in :2067
+336:the :2071
+337:eighty-second,:2085
+338: two :2090
+339:in :2093
+340:the :2097
+341:eighty-third,:2110
+342: three :2117
+343:in :2120
+344:the :2124
+345:eighty-fourth,:2138
+346: ten :2143
+347:in :2146
+348:the :2150
+349:eighty-fifth,:2163
+350: five :2169
+351:in :2172
+352:the :2176
+353:eighty-sixth,:2189
+354: two :2194
+355:in :2197
+356:the :2201
+357:eighty-seventh,:2216
+358: three :2223
+359:in :2226
+360:the :2230
+361:eighty-eighth,:2244
+362: nine :2250
+363:in :2253
+364:the :2257
+365:eighty-ninth,:2270
+366: four :2276
+367:in :2279
+368:the :2283
+369:ninetieth,:2293
+370: two :2298
+371:in :2301
+372:the :2305
+373:ninety-first,:2318
+374: three :2325
+375:in :2328
+376:the :2332
+377:ninety-second,:2346
+378: eleven :2354
+379:in :2357
+380:the :2361
+381:ninety-third,:2374
+382: five :2380
+383:in :2383
+384:the :2387
+385:ninety-fourth,:2401
+386: two :2406
+387:in :2409
+388:the :2413
+389:ninety-fifth,:2426
+390: three :2433
+391:in :2436
+392:the :2440
+393:ninety-sixth,:2453
+394: twelve :2461
+395:in :2464
+396:the :2468
+397:ninety-seventh,:2483
+398: three :2490
+399:in :2493
+400:the :2497
+401:ninety-eighth,:2511
+402: two :2516
+403:in :2519
+404:the :2523
+405:ninety-ninth,:2536
+406: three :2543
+407:in :2546
+408:the :2550
+409:one :2554
+410:hundredth,:2564
+411: eleven :2572
+412:in :2575
+413:the :2579
+414:one :2583
+415:hundred :2591
+416:and :2595
+417:first,:2601
+418: five :2607
+419:in :2610
+420:the :2614
+421:one :2618
+422:hundred :2626
+423:and :2630
+424:second,:2637
+425: two :2642
+426:in :2645
+427:the :2649
+428:one :2653
+429:hundred :2661
+430:and :2665
+431:third,:2671
+432: three :2678
+433:in :2681
+434:the :2685
+435:one :2689
+436:hundred :2697
+437:and :2701
+438:fourth,:2708
+439: twelve :2716
+440:in :2719
+441:the :2723
+442:one :2727
+443:hundred :2735
+444:and :2739
+445:fifth,:2745
+446: three :2752
+447:in :2755
+448:the :2759
+449:one :2763
+450:hundred :2771
+451:and :2775
+452:sixth,:2781
+453: two :2786
+454:in :2789
+455:the :2793
+456:one :2797
+457:hundred :2805
+458:and :2809
+459:seventh,:2817
+460: three :2824
+461:in :2827
+462:the :2831
+463:one :2835
+464:hundred :2843
+465:and :2847
+466:eighth,:2854
+467: eleven :2862
+468:in :2865
+469:the :2869
+470:one :2873
+471:hundred :2881
+472:and :2885
+473:ninth,:2891
+474: five :2897
+475:in :2900
+476:the :2904
+477:one :2908
+478:hundred :2916
+479:and :2920
+480:tenth,:2926
+481: two :2931
+482:in :2934
+483:the :2938
+484:one :2942
+485:hundred :2950
+486:and :2954
+487:eleventh,:2963
+488: three :2970
+489:in :2973
+490:the :2977
+491:one :2981
+492:hundred :2989
+493:and :2993
+494:twelfth,:3001
+495: eleven :3009
+496:in :3012
+497:the :3016
+498:one :3020
+499:hundred :3028
+500:and :3032
+501:thirteenth,:3043
+502: three :3050
+503:in :3053
+504:the :3057
+505:one :3061
+506:hundred :3069
+507:and :3073
+508:fourteenth,:3084
+509: two :3089
+510:in :3092
+511:the :3096
+512:one :3100
+513:hundred :3108
+514:and :3112
+515:fifteenth,:3122
+516: three :3129
+517:in :3132
+518:the :3136
+519:one :3140
+520:hundred :3148
+521:and :3152
+522:sixteenth,:3162
+523: thirteen :3172
+524:in :3175
+525:the :3179
+526:one :3183
+527:hundred :3191
+528:and :3195
+529:seventeenth,:3207
+530: five :3213
+531:in :3216
+532:the :3220
+533:one :3224
+534:hundred :3232
+535:and :3236
+536:eighteenth,:3247
+537: two :3252
+538:in :3255
+539:the :3259
+540:one :3263
+541:hundred :3271
+542:and :3275
+543:nineteenth,:3286
+544: three :3293
+545:in :3296
+546:the :3300
+547:one :3304
+548:hundred :3312
+549:and :3316
+550:twentieth,:3326
+551: twelve :3334
+552:in :3337
+553:the :3341
+554:one :3345
+555:hundred :3353
+556:and :3357
+557:twenty-first,:3370
+558: four :3376
+559:in :3379
+560:the :3383
+561:one :3387
+562:hundred :3395
+563:and :3399
+564:twenty-second,:3413
+565: two :3418
+566:in :3421
+567:the :3425
+568:one :3429
+569:hundred :3437
+570:and :3441
+571:twenty-third,:3454
+572: three :3461
+573:in :3464
+574:the :3468
+575:one :3472
+576:hundred :3480
+577:and :3484
+578:twenty-fourth,:3498
+579: eleven :3506
+580:in :3509
+581:the :3513
+582:one :3517
+583:hundred :3525
+584:and :3529
+585:twenty-fifth,:3542
+586: four :3548
+587:in :3551
+588:the :3555
+589:one :3559
+590:hundred :3567
+591:and :3571
+592:twenty-sixth,:3584
+593: two :3589
+594:in :3592
+595:the :3596
+596:one :3600
+597:hundred :3608
+598:and :3612
+599:twenty-seventh,:3627
+600: three :3634
+601:in :3637
+602:the :3641
+603:one :3645
+604:hundred :3653
+605:and :3657
+606:twenty-eighth,:3671
+607: nine :3677
+608:in :3680
+609:the :3684
+610:one :3688
+611:hundred :3696
+612:and :3700
+613:twenty-ninth,:3713
+614: three :3720
+615:in :3723
+616:the :3727
+617:one :3731
+618:hundred :3739
+619:and :3743
+620:thirtieth,:3753
+621: two :3758
+622:in :3761
+623:the :3765
+624:one :3769
+625:hundred :3777
+626:and :3781
+627:thirty-first,:3794
+628: three :3801
+629:in :3804
+630:the :3808
+631:one :3812
+632:hundred :3820
+633:and :3824
+634:thirty-second,:3838
+635: eleven :3846
+636:in :3849
+637:the :3853
+638:one :3857
+639:hundred :3865
+640:and :3869
+641:thirty-third,:3882
+642: five :3888
+643:in :3891
+644:the :3895
+645:one :3899
+646:hundred :3907
+647:and :3911
+648:thirty-fourth,:3925
+649: two :3930
+650:in :3933
+651:the :3937
+652:one :3941
+653:hundred :3949
+654:and :3953
+655:thirty-fifth,:3966
+656: three :3973
+657:in :3976
+658:the :3980
+659:one :3984
+660:hundred :3992
+661:and :3996
+662:thirty-sixth,:4009
+663: twelve :4017
+664:in :4020
+665:the :4024
+666:one :4028
+667:hundred :4036
+668:and :4040
+669:thirty-seventh,:4055
+670: four :4061
+671:in :4064
+672:the :4068
+673:one :4072
+674:hundred :4080
+675:and :4084
+676:thirty-eighth,:4098
+677: two :4103
+678:in :4106
+679:the :4110
+680:one :4114
+681:hundred :4122
+682:and :4126
+683:thirty-ninth,:4139
+684: three :4146
+685:in :4149
+686:the :4153
+687:one :4157
+688:hundred :4165
+689:and :4169
+690:fortieth,:4178
+691: eleven :4186
+692:in :4189
+693:the :4193
+694:one :4197
+695:hundred :4205
+696:and :4209
+697:forty-first,:4221
+698: five :4227
+699:in :4230
+700:the :4234
+701:one :4238
+702:hundred :4246
+703:and :4250
+704:forty-second,:4263
+705: two :4268
+706:in :4271
+707:the :4275
+708:one :4279
+709:hundred :4287
+710:and :4291
+711:forty-third,:4303
+712: three :4310
+713:in :4313
+714:the :4317
+715:one :4321
+716:hundred :4329
+717:and :4333
+718:forty-fourth,:4346
+719: twelve :4354
+720:in :4357
+721:the :4361
+722:one :4365
+723:hundred :4373
+724:and :4377
+725:forty-fifth,:4389
+726: three :4396
+727:in :4399
+728:the :4403
+729:one :4407
+730:hundred :4415
+731:and :4419
+732:forty-sixth,:4431
+733: two :4436
+734:in :4439
+735:the :4443
+736:one :4447
+737:hundred :4455
+738:and :4459
+739:forty-seventh,:4473
+740: three :4480
+741:in :4483
+742:the :4487
+743:one :4491
+744:hundred :4499
+745:and :4503
+746:forty-eighth,:4516
+747: eleven :4524
+748:in :4527
+749:the :4531
+750:one :4535
+751:hundred :4543
+752:and :4547
+753:forty-ninth,:4559
+754: five :4565
+755:in :4568
+756:the :4572
+757:one :4576
+758:hundred :4584
+759:and :4588
+760:fiftieth,:4597
+761: two :4602
+762:in :4605
+763:the :4609
+764:one :4613
+765:hundred :4621
+766:and :4625
+767:fifty-first,:4637
+768: three :4644
+769:in :4647
+770:the :4651
+771:one :4655
+772:hundred :4663
+773:and :4667
+774:fifty-second,:4680
+775: eleven :4688
+776:in :4691
+777:the :4695
+778:one :4699
+779:hundred :4707
+780:and :4711
+781:fifty-third,:4723
+782: five :4729
+783:in :4732
+784:the :4736
+785:one :4740
+786:hundred :4748
+787:and :4752
+788:fifty-fourth,:4765
+789: two :4770
+790:in :4773
+791:the :4777
+792:one :4781
+793:hundred :4789
+794:and :4793
+795:fifty-fifth,:4805
+796: three :4812
+797:in :4815
+798:the :4819
+799:one :4823
+800:hundred :4831
+801:and :4835
+802:fifty-sixth,:4847
+803: thirteen :4857
+804:in :4860
+805:the :4864
+806:one :4868
+807:hundred :4876
+808:and :4880
+809:fifty-seventh,:4894
+810: four :4900
+811:in :4903
+812:the :4907
+813:one :4911
+814:hundred :4919
+815:and :4923
+816:fifty-eighth,:4936
+817: two :4941
+818:in :4944
+819:the :4948
+820:one :4952
+821:hundred :4960
+822:and :4964
+823:fifty-ninth,:4976
+824: three :4983
+825:in :4986
+826:the :4990
+827:one :4994
+828:hundred :5002
+829:and :5006
+830:sixtieth,:5015
+831: twelve :5023
+832:in :5026
+833:the :5030
+834:one :5034
+835:hundred :5042
+836:and :5046
+837:sixty-first,:5058
+838: three :5065
+839:in :5068
+840:the :5072
+841:one :5076
+842:hundred :5084
+843:and :5088
+844:sixty-second,:5101
+845: two :5106
+846:in :5109
+847:the :5113
+848:one :5117
+849:hundred :5125
+850:and :5129
+851:sixty-third,:5141
+852: three :5148
+853:in :5151
+854:the :5155
+855:one :5159
+856:hundred :5167
+857:and :5171
+858:sixty-fourth,:5184
+859: eleven :5192
+860:in :5195
+861:the :5199
+862:one :5203
+863:hundred :5211
+864:and :5215
+865:sixty-fifth,:5227
+866: five :5233
+867:in :5236
+868:the :5240
+869:one :5244
+870:hundred :5252
+871:and :5256
+872:sixty-sixth,:5268
+873: two :5273
+874:in :5276
+875:the :5280
+876:one :5284
+877:hundred :5292
+878:and :5296
+879:sixty-seventh,:5310
+880: three :5317
+881:in :5320
+882:the :5324
+883:one :5328
+884:hundred :5336
+885:and :5340
+886:sixty-eighth,:5353
+887: eight :5360
+888:in :5363
+889:the :5367
+890:one :5371
+891:hundred :5379
+892:and :5383
+893:sixty-ninth,:5395
+894: three :5402
+895:in :5405
+896:the :5409
+897:one :5413
+898:hundred :5421
+899:and :5425
+900:seventieth,:5436
+901: two :5441
+902:in :5444
+903:the :5448
+904:one :5452
+905:hundred :5460
+906:and :5464
+907:seventy-first,:5478
+908: three :5485
+909:in :5488
+910:the :5492
+911:one :5496
+912:hundred :5504
+913:and :5508
+914:seventy-second,:5523
+915: ten :5528
+916:in :5531
+917:the :5535
+918:one :5539
+919:hundred :5547
+920:and :5551
+921:seventy-third,:5565
+922: four :5571
+923:in :5574
+924:the :5578
+925:one :5582
+926:hundred :5590
+927:and :5594
+928:seventy-fourth,:5609
+929: two :5614
+930:in :5617
+931:the :5621
+932:one :5625
+933:hundred :5633
+934:and :5637
+935:seventy-fifth,:5651
+936: three :5658
+937:in :5661
+938:the :5665
+939:one :5669
+940:hundred :5677
+941:and :5681
+942:seventy-sixth,:5695
+943: eleven :5703
+944:in :5706
+945:the :5710
+946:one :5714
+947:hundred :5722
+948:and :5726
+949:seventy-seventh,:5742
+950: three :5749
+951:in :5752
+952:the :5756
+953:one :5760
+954:hundred :5768
+955:and :5772
+956:seventy-eighth,:5787
+957: two :5792
+958:in :5795
+959:the :5799
+960:one :5803
+961:hundred :5811
+962:and :5815
+963:seventy-ninth,:5829
+964: three :5836
+965:in :5839
+966:the :5843
+967:one :5847
+968:hundred :5855
+969:and :5859
+970:eightieth,:5869
+971: ten :5874
+972:in :5877
+973:the :5881
+974:one :5885
+975:hundred :5893
+976:and :5897
+977:eighty-first,:5910
+978: five :5916
+979:in :5919
+980:the :5923
+981:one :5927
+982:hundred :5935
+983:and :5939
+984:eighty-second,:5953
+985: two :5958
+986:in :5961
+987:the :5965
+988:one :5969
+989:hundred :5977
+990:and :5981
+991:eighty-third,:5994
+992: three :6001
+993:in :6004
+994:the :6008
+995:one :6012
+996:hundred :6020
+997:and :6024
+998:eighty-fourth,:6038
+999: eleven :6046
+1000:in :6049
+ 
