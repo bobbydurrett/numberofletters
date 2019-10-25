@@ -161,11 +161,11 @@ Word 10000000 is "thousand", with 8 letters.  Length of sentence so far: 7099575
 
 """
 
-#word_and_counts(1000)
-#word_and_counts(10000)
-#word_and_counts(100000)
-#word_and_counts(1000000)
-#word_and_counts(10000000)
+word_and_counts(1000)
+word_and_counts(10000)
+word_and_counts(100000)
+word_and_counts(1000000)
+word_and_counts(10000000)
 
 """
 sentence_list, num_words = build_sentence(p, 1000)
@@ -185,7 +185,7 @@ print(" ")
 # talk has full text of 2202 word string
 
 #word_and_counts(2202)
-
+"""
 sentence_list, num_words = build_sentence(p, 2202)
 
 full_sentence = ""
@@ -203,4 +203,4 @@ for i in range(num_hundred_lines):
     print(full_sentence[i*100:i*100+100])
     
 print(full_sentence[(num_hundred_lines-1)*100+100:])
-
+"""
