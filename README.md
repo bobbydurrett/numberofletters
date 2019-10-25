@@ -36,3 +36,17 @@ Second part is not right. Last one takes a few minutes to run.
 
 Added debugging for 1000 word case. See output.txt.
 
+http://rosettacode.org/wiki/Talk:Four_is_the_number_of_letters_in_the_...
+
+has the first 2,202 words. So, need to build a test comparing to it.
+
+Correct 26th line:
+
+ety-eighth, two in the ninety-ninth, three in the one hundredth, eleven in the one hundred first, fi
+
+My 26th line:
+
+ety-eighth, two in the ninety-ninth, three in the one hundredth, eleven in the one hundred and first
+
+Mine has "one hundred and first" instead of "one hundred first"
+
