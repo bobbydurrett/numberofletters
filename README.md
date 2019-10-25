@@ -50,3 +50,7 @@ ety-eighth, two in the ninety-ninth, three in the one hundredth, eleven in the o
 
 Mine has "one hundred and first" instead of "one hundred first"
 
+Got working. Added , andword='' to inflect calls.
+
+Now is in sync with the 2202 words example on the talk page.
+

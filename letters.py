@@ -71,11 +71,11 @@ def build_sentence(p, max_words):
         
         # get second or whatever we are on
         
-        ordinal_string = p.number_to_words(p.ordinal(word_number))
+        ordinal_string = p.number_to_words(p.ordinal(word_number), andword='')
         
         # get two or whatever the length is of the word_number word
         
-        word_number_string = p.number_to_words(count_letters(sentence_list[word_number - 1]))
+        word_number_string = p.number_to_words(count_letters(sentence_list[word_number - 1]), andword='')
         
         # sentence addition
         
@@ -202,5 +202,5 @@ print('1234567890123456789012345678901234567890123456789012345678901234567890123
 for i in range(num_hundred_lines):
     print(full_sentence[i*100:i*100+100])
     
-print(full_sentence[(num_hundred_lines-1)*100+101:])
+print(full_sentence[(num_hundred_lines-1)*100+100:])
 
