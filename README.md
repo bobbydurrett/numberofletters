@@ -80,3 +80,27 @@ Word 10000000 is "thousand", with 8 letters.  Length of the sentence so far: 719
 
 Has the right word but not the right total number of characters.
 
+Working:
+
+The lengths of the first 201 words are:
+
+  1:   4  2  3  6  2  7  2  3  5  4  2  4  8  3  2  3  6  5  2  3
+ 21:   5  3  2  3  6  3  2  3  5  5  2  3  5  3  2  3  7  5  2  3
+ 41:   6  4  2  3  5  4  2  3  5  3  2  3  8  4  2  3  7  5  2  3
+ 61:  10  5  2  3 10  3  2  3  9  5  2  3  9  3  2  3 11  4  2  3
+ 81:  10  3  2  3 10  5  2  3  9  4  2  3 11  5  2  3 12  3  2  3
+101:  11  5  2  3 12  3  2  3 11  5  2  3 11  3  2  3 13  5  2  3
+121:  12  4  2  3 11  4  2  3  9  3  2  3 11  5  2  3 12  4  2  3
+141:  11  5  2  3 12  3  2  3 11  5  2  3 11  5  2  3 13  4  2  3
+161:  12  3  2  3 11  5  2  3  8  3  2  3 10  4  2  3 11  3  2  3
+181:  10  5  2  3 11  4  2  3 10  4  2  3 10  3  2  3 12  5  2  3
+201:  11
+
+Length of sentence so far: 1203
+
+Word     1000 is "in", with 2 letters.  Length of the sentence so far: 6279
+Word    10000 is "in", with 2 letters.  Length of the sentence so far: 64140
+Word   100000 is "one", with 3 letters.  Length of the sentence so far: 659474
+Word  1000000 is "the", with 3 letters.  Length of the sentence so far: 7113621
+Word 10000000 is "thousand", with 8 letters.  Length of the sentence so far: 70995756
+

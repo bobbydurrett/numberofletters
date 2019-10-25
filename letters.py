@@ -41,6 +41,20 @@ def split_with_spaces(sentence):
         sentence_list.append(curr_word)
     
     return sentence_list
+    
+def my_num_to_words(p, my_number):
+    """
+    Front end to inflect's number_to_words
+    """
+    
+    number_string_list = p.number_to_words(my_number, wantlist=True, andword='')
+    
+    number_string = number_string_list[0]
+    
+    for i in range(1,len(number_string_list)):
+        number_string += " " + number_string_list[i]
+    
+    return number_string
         
 def build_sentence(p, max_words):
     """
@@ -71,11 +85,11 @@ def build_sentence(p, max_words):
         
         # get second or whatever we are on
         
-        ordinal_string = p.number_to_words(p.ordinal(word_number), andword='')
+        ordinal_string = my_num_to_words(p, p.ordinal(word_number))
         
         # get two or whatever the length is of the word_number word
         
-        word_number_string = p.number_to_words(count_letters(sentence_list[word_number - 1]), andword='')
+        word_number_string = my_num_to_words(p, count_letters(sentence_list[word_number - 1]))
         
         # sentence addition
         
@@ -182,15 +196,17 @@ for i in range(1000):
 print(" ")
 """
 
-# talk has full text of 2202 word string
+# debug first 10000 words
+# print in 100 character lines
 
-#word_and_counts(2202)
 """
-sentence_list, num_words = build_sentence(p, 2202)
+word_goal = 10000
+
+sentence_list, num_words = build_sentence(p, word_goal)
 
 full_sentence = ""
 
-for i in range(2202):
+for i in range(word_goal):
     full_sentence += sentence_list[i]
     
 num_hundred_lines = len(full_sentence) // 100
